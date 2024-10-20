@@ -32,15 +32,28 @@ button:hover {
   cursor: pointer;
 }
 ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
-li
-{
-    background-color: aquamarine;
-    margin: 10px 0;
-    border: green;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
+li {
+  background-color: aquamarine;
+  margin: 10px 0;
+  padding: 10px;
+  border: green;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 7px;
+}
+li .remove-btn {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+li .remove-btn:hover {
+  background: #c82333;
 }
