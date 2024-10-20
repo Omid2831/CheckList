@@ -1,0 +1,46 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  background-color: lightblue;
+}
+.container {
+  background: rgb(73, 179, 198);
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+h1 {
+  text-align: center;
+}
+input {
+  border-radius: 5px;
+  border: dotted dashed solid double;
+  cursor: pointer;
+}
+button {
+  padding: 10px 10px;
+  border: none;
+  background-color: aliceblue;
+  color: black;
+}
+button:hover {
+  background-color: #bad90b;
+  cursor: pointer;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li
+{
+    background-color: aquamarine;
+    margin: 10px 0;
+    border: green;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
