@@ -8,10 +8,19 @@ body {
   background-color: lightblue;
 }
 .container {
+  border: 2px solid white;
+  backdrop-filter: blur(10px);
   background: rgb(73, 179, 198);
   padding: 1rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  overflow: hidden;
+  height: 3.8em;
+  transition: all 1s ease;
+}
+.container.expanded {
+  height: 80vh;
+  transition: all 1s ease;
 }
 h1 {
   text-align: center;

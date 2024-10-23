@@ -7,13 +7,21 @@
     <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-    <div class="container">
+    <div id="app" class="container">
         <h1> To Do List </h1>
         <input type="text" id="txt" placeholder="Type here your task...">
         <button onclick="addTask()">Add</button>
         <ul id="TaskList"></ul>
 
     </div>
+    
+    <script type="text/javascript">
+        setTimeout(() => {
+            console.log('test');
+            document.getElementById("app").classList.toggle("expanded")
+        }, 10);
+    </script>
+
     <script src="script2.js"></script>
 </body>
 </html>
